@@ -1,0 +1,4 @@
+*.log
+.pgpass
+.env
+.DS_Store
