@@ -1,4 +1,3 @@
--- schema.sql: структура БД интернет-магазина (3НФ)
 -- Запуск: psql -U postgres -h localhost -d lab1 -v ON_ERROR_STOP=1 -f schema.sql
 -- Имена ограничений: pk_ первичный ключ, uq_ уникальность, chk_ проверка, fk_ внешний ключ
 

@@ -1,9 +1,3 @@
--- constraints_test.sql: проверка ограничений (минимум 5 ошибочных операций)
--- Запуск: psql -U postgres -h localhost -d lab1 -f constraints_test.sql > constraints_test.log 2>&1
--- Каждая операция должна быть отклонена. Над каждой напиши, какое ограничение проверяется.
--- Запускать после data.sql. Флага ON_ERROR_STOP нет специально: ошибки ожидаются,
--- поэтому выполняются все операции подряд, и в логе видно каждую ошибку.
-
 -- 1) UNIQUE: email уже занят клиентом Иваном Петровым
 INSERT INTO customers (full_name, email) VALUES ('Двойник', 'ivan.petrov@example.com');
 

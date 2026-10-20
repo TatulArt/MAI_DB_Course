@@ -1,3 +1,3 @@
--- reset.sql: полный сброс БД. Только для разработки, ДО этапа с migration.sql!
+-- reset.sql: полный сброс БД.
 DROP SCHEMA public CASCADE;
 CREATE SCHEMA public;
