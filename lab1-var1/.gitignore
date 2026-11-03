@@ -2,3 +2,4 @@
 .pgpass
 .env
 .DS_Store
+task.txt
